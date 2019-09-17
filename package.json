@@ -12,7 +12,9 @@
     "bootstrap-vue": "^2.0.1",
     "core-js": "^2.6.5",
     "mdb-cli": "^1.1.17",
-    "vue": "^2.6.10"
+    "sweetalert2": "^8.17.4",
+    "vue": "^2.6.10",
+    "vue-sweetalert2": "^2.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
