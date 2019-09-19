@@ -11,11 +11,12 @@ devRoutes = devRoutes.concat(app.default.routes)
 for(let x = 0; x < devRoutes.length; x++){
     devRoutes[x]['beforeEnter'] = beforeEnter
 }
+// to have a default route
 let routes = [
     {
         path: '/',
         name: 'home',
         component: resolve => require('../modules/basic/Login.vue'), resolve,
-        beforeEnter
+        beforeEnter: beforeEnter
     }
 ]
