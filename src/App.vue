@@ -1,16 +1,12 @@
 <template>
   <div id="app">
     <Header></Header>
-    <!-- <AppBody></AppBody> -->
     <Login></Login>
   </div>
 </template>
 
 <script>
 import Header from './components/frame/Header.vue'
-// import AppBody from './components/frame/Body.vue'
-// import Login from './components/Login.vue'
-// import HelloWorld from './components/HelloWorld.vue'
 import Login from './components/Login.vue'
 
 export default {
